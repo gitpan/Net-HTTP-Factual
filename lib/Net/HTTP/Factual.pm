@@ -1,6 +1,6 @@
 package Net::HTTP::Factual;
 BEGIN {
-  $Net::HTTP::Factual::VERSION = '0.102890';
+  $Net::HTTP::Factual::VERSION = '0.102900';
 }
 use warnings;
 use strict;
@@ -107,7 +107,7 @@ Net::HTTP::Factual - RESTful interface to Factual.com, using Spore
 
 =head1 VERSION
 
-version 0.102890
+version 0.102900
 
 =head1 SYNOPSIS
 

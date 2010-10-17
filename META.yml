@@ -18,4 +18,4 @@ requires:
   Net::HTTP::Spore: 0
 resources:
   repository: http://github.com/spazm/Net-HTTP-Factual.git
-version: 0.102890
+version: 0.102900

@@ -25,7 +25,7 @@ my %WriteMakefileArgs = (
     'Moose' => '0',
     'Net::HTTP::Spore' => '0'
   },
-  'VERSION' => '0.102890',
+  'VERSION' => '0.102900',
   'test' => {
     'TESTS' => 't/*.t'
   }
