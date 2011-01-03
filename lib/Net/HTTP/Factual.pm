@@ -1,6 +1,6 @@
 package Net::HTTP::Factual;
 BEGIN {
-  $Net::HTTP::Factual::VERSION = '0.102900';
+  $Net::HTTP::Factual::VERSION = '0.110030';
 }
 use warnings;
 use strict;
@@ -26,6 +26,7 @@ sub _build_spec
 {
     my $factual_spec = 
     '{
+       "base_url" : "http://api.factual.com",
        "api_base_url" : "http://api.factual.com",
        "version" : "v2",
        "expected" : "200",
@@ -107,7 +108,7 @@ Net::HTTP::Factual - RESTful interface to Factual.com, using Spore
 
 =head1 VERSION
 
-version 0.102900
+version 0.110030
 
 =head1 SYNOPSIS
 
