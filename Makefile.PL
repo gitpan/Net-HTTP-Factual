@@ -4,30 +4,32 @@ use warnings;
 
 
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'RESTful interface to Factual.com, using Spore',
-  'AUTHOR' => 'Andrew Grangaard <spazm@cpan.org>',
-  'BUILD_REQUIRES' => {
-    'Test::More' => '0'
+  "ABSTRACT" => "RESTful interface to Factual.com, using Spore",
+  "AUTHOR" => "Andrew Grangaard <spazm\@cpan.org>",
+  "BUILD_REQUIRES" => {
+    "Test::More" => 0
   },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'Net-HTTP-Factual',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'Net::HTTP::Factual',
-  'PREREQ_PM' => {
-    'Moose' => '0',
-    'Net::HTTP::Spore' => '0'
+  "DISTNAME" => "Net-HTTP-Factual",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "Net::HTTP::Factual",
+  "PREREQ_PM" => {
+    "Moose" => 0,
+    "Net::HTTP::Spore" => 0,
+    "strict" => 0,
+    "warnings" => 0
   },
-  'VERSION' => '0.110030',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "0.122480",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 

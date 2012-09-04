@@ -4,7 +4,7 @@
       "Andrew Grangaard <spazm@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200000, CPAN::Meta::Converter version 2.102400",
+   "generated_by" : "Dist::Zilla version 4.300021, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -16,18 +16,20 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.31"
+            "ExtUtils::MakeMaker" : "6.30"
          }
       },
       "runtime" : {
          "requires" : {
-            "Moose" : 0,
-            "Net::HTTP::Spore" : 0
+            "Moose" : "0",
+            "Net::HTTP::Spore" : "0",
+            "strict" : "0",
+            "warnings" : "0"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : 0
+            "Test::More" : "0"
          }
       }
    },
@@ -39,6 +41,6 @@
          "web" : "http://github.com/spazm/Net-HTTP-Factual"
       }
    },
-   "version" : "0.110030"
+   "version" : "0.122480"
 }
 
